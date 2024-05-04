@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+body{
+    font-family: Michroma, serif;
+    background: linear-gradient(93deg, #0024d6 23%, #000000 82%);
+}
+p{
+    color: aquamarine;
+}
+a{
+    text-decoration: none;
+}
+.at{
+    animation: myAnim 8s ease-in-out 0s infinite normal forwards;
+}
+
+.nav-link{
+    color: aquamarine;
+}
+.navbar-nav .nav-link.active {
+    color: rgb(216, 13, 13);
+}
+.navbar-brand img{
+    width: 40px;
+}
+.navbar-toggler{
+    background-color: aquamarine;
+    box-shadow: 32px 18px 22px 12px #122eba;
+}
+.sitebar{
+    color: aquamarine;
+    background: linear-gradient(270deg, #0024d6 23%, #000000 82%);
+}
+.card, .btn-outline-primary{
+    background: linear-gradient(70deg, #0024d6 23%, #000000 82%);
+    
+}
+.card a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.slide-text, .footer-text,.footer-text a {
+    color: aquamarine;
+    margin: auto auto;
+}
+footer{
+    background: linear-gradient(210deg, #0024d6 23%, #000000 82%);
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:  755px){
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateX(-10px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateX(10px);
+	}
+
+	80% {
+		transform: translateX(8px);
+	}
+
+	90% {
+		transform: translateX(-8px);
+	}
+}
